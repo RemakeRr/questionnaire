@@ -19,6 +19,7 @@ $white: #ffffff
 $black: #1c1c1c
 $blue: #435993
 $div: #d9d9d9
+$border: #e5e5e5
 $plch: #c8c8c8
 $grey: #e8e8e8
 
@@ -52,6 +53,57 @@ body
 				color: $blue
 				&:hover
 					color: $black
+
+.h1
+	font-family: $thin
+	font-size: 70px
+	line-height: 0
+
+.h2
+	font-family: $light
+	font-size: 30px
+	line-height: 0
+
+.qst
+	padding-top: 130px
+	&-i
+		margin-top: 76px
+		height: 47px
+		width: 100%
+		background-image: url('img/qst.png')
+		background-position: center
+		background-repeat: no-repeat
+	& .qst-h2
+		margin-top: 28px
+	&-forms
+		margin-top: 48px
+	&-inp-f
+		display: flex
+		align-items: center
+		justify-content: center
+	&-name	
+		font-size: 24px
+		height: 60px
+		width: 520px
+		color: $black
+
+input
+	border-color: #e5e5e5
+	text-align: center
+	font-size: 24px
+	&::-webkit-input-placeholder
+		text-align: center
+		color: $plch
+	&::-moz-placeholder
+		text-align: center
+		color: $plch
+	&:-moz-placeholder
+		text-align: center
+		color: $plch
+	&:-ms-input-placeholder
+		text-align: center
+		color: $plch
+
 
 
 

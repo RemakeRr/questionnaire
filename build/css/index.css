@@ -42,6 +42,56 @@ body {
         .nav ul li a:hover {
           color: #1c1c1c; }
 
+.h1 {
+  font-family: Thin;
+  font-size: 70px;
+  line-height: 0; }
+
+.h2 {
+  font-family: Light;
+  font-size: 30px;
+  line-height: 0; }
+
+.qst {
+  padding-top: 130px; }
+  .qst-i {
+    margin-top: 76px;
+    height: 47px;
+    width: 100%;
+    background-image: url(../images/qst.png);
+    background-position: center;
+    background-repeat: no-repeat; }
+  .qst .qst-h2 {
+    margin-top: 28px; }
+  .qst-forms {
+    margin-top: 48px; }
+  .qst-inp-f {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .qst-name {
+    font-size: 24px;
+    height: 60px;
+    width: 520px;
+    color: #1c1c1c; }
+
+input {
+  border-color: #e5e5e5;
+  text-align: center;
+  font-size: 24px; }
+  input::-webkit-input-placeholder {
+    text-align: center;
+    color: #c8c8c8; }
+  input::-moz-placeholder {
+    text-align: center;
+    color: #c8c8c8; }
+  input:-moz-placeholder {
+    text-align: center;
+    color: #c8c8c8; }
+  input:-ms-input-placeholder {
+    text-align: center;
+    color: #c8c8c8; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
