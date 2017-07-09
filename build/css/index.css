@@ -20,6 +20,7 @@ body {
 .navbar {
   width: 100%;
   height: 80px;
+  background-color: #ffffff;
   -webkit-box-shadow: 0px 1px 0px 0px #d9d9d9;
   -moz-box-shadow: 0px 1px 0px 0px #d9d9d9;
   box-shadow: 0px 1px 0px 0px #d9d9d9; }
@@ -53,7 +54,8 @@ body {
   line-height: 0; }
 
 .qst {
-  padding-top: 130px; }
+  padding-top: 130px;
+  padding-bottom: 73px; }
   .qst-i {
     margin-top: 76px;
     height: 47px;
@@ -69,11 +71,23 @@ body {
     display: flex;
     align-items: center;
     justify-content: center; }
+  .qst-b {
+    margin-top: 25px; }
   .qst-name {
     font-size: 24px;
     height: 60px;
     width: 520px;
     color: #1c1c1c; }
+  .qst-date {
+    font-size: 24px;
+    color: #1c1c1c; }
+
+.input-group .form-control {
+  width: 320px;
+  height: 60px; }
+
+.input-group-addon {
+  display: none; }
 
 input {
   border-color: #e5e5e5;
@@ -91,6 +105,32 @@ input {
   input:-ms-input-placeholder {
     text-align: center;
     color: #c8c8c8; }
+
+.exp {
+  padding-bottom: 135px; }
+  .exp-i {
+    height: 47px;
+    width: 100%;
+    background-image: url(../images/exp.png);
+    background-position: center;
+    background-repeat: no-repeat; }
+  .exp-h2 {
+    margin-top: 30px; }
+  .exp-chboxes {
+    margin-top: 54px; }
+    .exp-chboxes-chb {
+      margin-top: 15px; }
+    .exp-chboxes-label {
+      font-size: 16px; }
+    .exp-chboxes-input {
+      border-color: #435993; }
+
+.checkbox + .checkbox, .radio + .radio {
+  margin-top: 15px; }
+
+.checkbox, .radio {
+  margin-top: 0px;
+  margin-bottom: 0px; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */

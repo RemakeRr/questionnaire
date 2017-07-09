@@ -2,7 +2,7 @@ extends ../base
 block title
     | questionnaire_test
 block main    
-    .navbar.fixed-top
+    .navbar.navbar-fixed-top
         .container
             .row
                 .col-md-8.col-md-offset-2
@@ -10,14 +10,14 @@ block main
                         .nav
                             ul.col-md-12
                                 li
-                                    a(href='#') Личная информация
+                                    a(href='#qst') Личная информация
                                 li
-                                    a(href='#') Опыт
+                                    a(href='#exp') Опыт
                                 li
                                     a(href='#') JavaScript
                                 li
                                     a(href='#') О себе
-    section.qst
+    section.qst#qst
         .container
             .row
                 .col-md-12.text-center
@@ -30,10 +30,55 @@ block main
                     .row
                         .col-md-6.col-md-offset-3.qst-inp-f
                             input.form-control.qst-name(type='text' placeholder='ФИО')
-                        .col-md-6.col-md-offset-3.qst-inp-f
-                            .input-group.date
-                                input.form-control(type='text' placeholder='Год рождения')
+                        .col-md-6.col-md-offset-3.qst-inp-f.qst-b
+                            .input-group.date.qst-inp-f
+                                input.qst-date.form-control(type='text' placeholder='Год рождения')
                                 span.input-group-addon
                                     i.glyphicon.glyphicon-th
+                        .col-md-6.col-md-offset-3.qst-inp-f.qst-b
+                            input.form-control.qst-name(type='text' placeholder='Место проживания')
+                        .col-md-6.col-md-offset-3.qst-inp-f.qst-b
+                            input.form-control.qst-name(type='text' placeholder='Skype')
+                        .col-md-6.col-md-offset-3.qst-inp-f.qst-b
+                            input.form-control.qst-name(type='text' placeholder='E-mail')
+    section.exp#exp
+        .container
+            .row
+                .col-md-12.text-center
+                    .exp-i
+                .col-md-12.text-center
+                    h2.exp-h2.h2 Расскажите о своем опыте
+                .col-md-12.exp-chboxes
+                    .row
+                        .col-md-2.col-md-offset-2
+                            .checkbox
+                                input.exp-chboxes-input(type='checkbox' value='' checked)
+                                label.exp-chboxes-label БЭМ/OOCSS                            
+                            .checkbox
+                                input.exp-chboxes-input(type='checkbox' value='' checked)
+                                label.exp-chboxes-label Stylus/LESS/SASS
+                            .checkbox
+                                input.exp-chboxes-input(type='checkbox' value='')
+                                label.exp-chboxes-label Работаю с SVG
+                        .col-md-3.col-md-offset-1
+                            .checkbox
+                                input.exp-chboxes-input(type='checkbox' value='' checked)
+                                label.exp-chboxes-label Верстаю семантично                            
+                            .checkbox
+                                input.exp-chboxes-input(type='checkbox' value='')
+                                label.exp-chboxes-label ES2015/ES2016
+                            .checkbox
+                                input.exp-chboxes-input(type='checkbox' value='' checked)
+                                label.exp-chboxes-label Gulp/GRUNT
+                        .col-md-2.col-md-offset-1
+                            .checkbox
+                                input.exp-chboxes-input(type='checkbox' value='' checked)
+                                label.exp-chboxes-label Webpack                            
+                            .checkbox
+                                input.exp-chboxes-input(type='checkbox' value='' checked)
+                                label.exp-chboxes-label jQuery
+                            .checkbox
+                                input.exp-chboxes-input(type='checkbox' value='' checked)
+                                label.exp-chboxes-label Ипользую Git
 
 

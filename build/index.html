@@ -10,15 +10,15 @@
     </title>
   <link href="./css/index.css" rel="stylesheet"></head>
   <body>
-    <div class="navbar fixed-top">
+    <div class="navbar navbar-fixed-top">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
             <div class="row">
               <div class="nav">
                 <ul class="col-md-12">
-                  <li><a href="#">Личная информация</a></li>
-                  <li><a href="#">Опыт</a></li>
+                  <li><a href="#qst">Личная информация</a></li>
+                  <li><a href="#exp">Опыт</a></li>
                   <li><a href="#">JavaScript</a></li>
                   <li><a href="#">О себе</a></li>
                 </ul>
@@ -28,7 +28,7 @@
         </div>
       </div>
     </div>
-    <section class="qst">
+    <section class="qst" id="qst">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -45,9 +45,76 @@
               <div class="col-md-6 col-md-offset-3 qst-inp-f">
                 <input class="form-control qst-name" type="text" placeholder="ФИО">
               </div>
-              <div class="col-md-6 col-md-offset-3 qst-inp-f">
-                <div class="input-group date">
-                  <input class="form-control" type="text" placeholder="Год рождения"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+              <div class="col-md-6 col-md-offset-3 qst-inp-f qst-b">
+                <div class="input-group date qst-inp-f">
+                  <input class="qst-date form-control" type="text" placeholder="Год рождения"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+                </div>
+              </div>
+              <div class="col-md-6 col-md-offset-3 qst-inp-f qst-b">
+                <input class="form-control qst-name" type="text" placeholder="Место проживания">
+              </div>
+              <div class="col-md-6 col-md-offset-3 qst-inp-f qst-b">
+                <input class="form-control qst-name" type="text" placeholder="Skype">
+              </div>
+              <div class="col-md-6 col-md-offset-3 qst-inp-f qst-b">
+                <input class="form-control qst-name" type="text" placeholder="E-mail">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="exp" id="exp">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="exp-i"></div>
+          </div>
+          <div class="col-md-12 text-center">
+            <h2 class="exp-h2 h2">Расскажите о своем опыте</h2>
+          </div>
+          <div class="col-md-12 exp-chboxes">
+            <div class="row">
+              <div class="col-md-2 col-md-offset-2">
+                <div class="checkbox">
+                  <input class="exp-chboxes-input" type="checkbox" value="" checked>
+                  <label class="exp-chboxes-label">БЭМ/OOCSS                            </label>
+                </div>
+                <div class="checkbox">
+                  <input class="exp-chboxes-input" type="checkbox" value="" checked>
+                  <label class="exp-chboxes-label">Stylus/LESS/SASS</label>
+                </div>
+                <div class="checkbox">
+                  <input class="exp-chboxes-input" type="checkbox" value="">
+                  <label class="exp-chboxes-label">Работаю с SVG</label>
+                </div>
+              </div>
+              <div class="col-md-3 col-md-offset-1">
+                <div class="checkbox">
+                  <input class="exp-chboxes-input" type="checkbox" value="" checked>
+                  <label class="exp-chboxes-label">Верстаю семантично                            </label>
+                </div>
+                <div class="checkbox">
+                  <input class="exp-chboxes-input" type="checkbox" value="">
+                  <label class="exp-chboxes-label">ES2015/ES2016</label>
+                </div>
+                <div class="checkbox">
+                  <input class="exp-chboxes-input" type="checkbox" value="" checked>
+                  <label class="exp-chboxes-label">Gulp/GRUNT</label>
+                </div>
+              </div>
+              <div class="col-md-2 col-md-offset-1">
+                <div class="checkbox">
+                  <input class="exp-chboxes-input" type="checkbox" value="" checked>
+                  <label class="exp-chboxes-label">Webpack                            </label>
+                </div>
+                <div class="checkbox">
+                  <input class="exp-chboxes-input" type="checkbox" value="" checked>
+                  <label class="exp-chboxes-label">jQuery</label>
+                </div>
+                <div class="checkbox">
+                  <input class="exp-chboxes-input" type="checkbox" value="" checked>
+                  <label class="exp-chboxes-label">Ипользую Git</label>
                 </div>
               </div>
             </div>
