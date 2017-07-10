@@ -53,6 +53,11 @@ body {
   font-size: 30px;
   line-height: 0; }
 
+.p {
+  font-size: 16px;
+  font-family: Light;
+  line-height: 24px; }
+
 .qst {
   padding-top: 130px;
   padding-bottom: 73px; }
@@ -131,6 +136,39 @@ input {
 .checkbox, .radio {
   margin-top: 0px;
   margin-bottom: 0px; }
+
+.js {
+  padding-bottom: 135px; }
+  .js-range {
+    margin-top: 54px; }
+  .js-i {
+    height: 47px;
+    width: 100%;
+    background-image: url(../images/js.png);
+    background-position: center;
+    background-repeat: no-repeat; }
+  .js-h2 {
+    margin-top: 31px; }
+  .js ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .js ul li {
+      display: inline-block;
+      font-size: 13px; }
+
+.about {
+  padding-bottom: 74px; }
+  .about-i {
+    height: 47px;
+    width: 100%;
+    background-image: url(../images/about.png);
+    background-position: center;
+    background-repeat: no-repeat; }
+  .about-h2 {
+    margin-top: 31px; }
+  .about-p {
+    margin-top: 23px; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
